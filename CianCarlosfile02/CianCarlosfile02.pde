@@ -1,12 +1,12 @@
 void setup() {
-  size(-100, 120);
+  size(1000, 120);
 }
 
 void draw() {
   if (mousePressed) {
     fill(0);
   } else {
-    fill(255);
+    fill(655);
   }
   ellipse(mouseX, mouseY, 80, 80);
 }
