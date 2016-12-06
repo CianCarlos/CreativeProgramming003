@@ -9,6 +9,6 @@ void draw() {
     fill(0);
   }
   background(300);
-  rect(mouseX, mouseY, 150, 150);
-  ellipse(mouseX, mouseY, 150, 150);
+  rect(mouseX, 100, 150, 150);
+  ellipse(100, mouseY, 150, 150);
 }
