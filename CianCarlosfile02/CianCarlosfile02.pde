@@ -10,6 +10,7 @@ void draw() {
   } else {
     fill(0);
   } 
+  translate(mouseX, mouseY);
   rotate(angle);
   background(100);
   rect(mouseX, mouseY, 50, 50);
