@@ -1,3 +1,5 @@
+float angle = 0;
+
 void setup() {
   size(800, 800);
 }
@@ -7,9 +9,10 @@ void draw() {
     fill(100);
   } else {
     fill(0);
-  }
-  rotate(mouseX / 100.0);
-  background(300);
-  rect(mouseX, 100, 150, 150);
-  ellipse(100, mouseY, 150, 150);
+  } 
+  rotate(angle);
+  background(100);
+  rect(mouseX, mouseY, 50, 50);
+  ellipse(mouseX, mouseY, 50, 50);
+  angle += 0.1;
 }
