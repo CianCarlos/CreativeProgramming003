@@ -13,7 +13,7 @@ void draw() {
   translate(mouseX, mouseY);
   rotate(angle);
   background(100);
-  rect(mouseX, mouseY, 50, 50);
+  rect(mouseX, mouseY, 0, 0);
   ellipse(mouseX, mouseY, 50, 50);
   angle += 0.1;
 }
