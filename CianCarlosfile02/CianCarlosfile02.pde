@@ -11,7 +11,7 @@ void draw() {
     fill(0);
   } 
   translate(mouseX, mouseY);
-  scale(mouseX, 50.0);
+  scale(mouseX / 50.0);
   rect(mouseX, mouseY, 50, 50);
   ellipse(mouseX, mouseY, 50, 50);
   angle += 0.1;
